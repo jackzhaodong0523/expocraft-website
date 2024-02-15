@@ -120,8 +120,8 @@
 }
 
 .expo-craft .header-section {
-  gap: 24px;
-  padding: 42px 24px;
+  gap: 40px;
+  padding: 80px 80px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
