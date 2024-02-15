@@ -121,7 +121,7 @@
 
 .expo-craft .header-section {
   gap: 40px;
-  padding: 80px 80px;
+  padding: 80px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -132,7 +132,7 @@
   position: relative;
 }
 
-.expo-craft .my-story-about-EXPO {
+.expo-craft .text-wrapper-3 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -167,25 +167,25 @@
   color: #667f46;
 }
 
-.expo-craft .text-wrapper-3 {
+.expo-craft .text-wrapper-4 {
   font-weight: 600;
   color: #4d6035;
 }
 
 .expo-craft .header-section-2 {
   flex-direction: column;
+  align-items: center;
   gap: 24px;
+  padding: 42px 24px;
   background-color: #c2dba0;
   display: flex;
-  align-items: center;
-  padding: 42px 24px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.expo-craft .text-wrapper-4 {
+.expo-craft .text-wrapper-5 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -240,7 +240,7 @@
   border-radius: 61px;
 }
 
-.expo-craft .text-wrapper-5 {
+.expo-craft .text-wrapper-6 {
   left: 31px;
   position: absolute;
   height: 30px;
@@ -266,15 +266,15 @@
   line-height: normal;
 }
 
-.expo-craft .text-wrapper-6 {
+.expo-craft .text-wrapper-7 {
   font-weight: 500;
 }
 
-.expo-craft .text-wrapper-7 {
+.expo-craft .text-wrapper-8 {
   font-weight: 700;
 }
 
-.expo-craft .text-wrapper-8 {
+.expo-craft .text-wrapper-9 {
   left: 29px;
   position: absolute;
   height: 30px;
@@ -314,7 +314,7 @@
   border-radius: 61px;
 }
 
-.expo-craft .text-wrapper-9 {
+.expo-craft .text-wrapper-10 {
   position: absolute;
   height: 30px;
   top: 13px;
@@ -329,7 +329,7 @@
   white-space: nowrap;
 }
 
-.expo-craft .text-wrapper-10 {
+.expo-craft .text-wrapper-11 {
   font-family: "Montserrat", Helvetica;
   font-weight: 500;
   color: #667f46;
@@ -339,18 +339,18 @@
 
 .expo-craft .header-section-3 {
   flex-direction: column;
+  align-items: center;
   gap: 24px;
+  padding: 42px 80px;
   background-color: #c9e2a6;
   display: flex;
-  align-items: center;
-  padding: 42px 24px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.expo-craft .text-wrapper-11 {
+.expo-craft .div-2 {
   position: relative;
   align-self: stretch;
   font-family: "Montserrat", Helvetica;
@@ -363,9 +363,9 @@
 }
 
 .expo-craft .button {
-  display: flex;
   width: 144px;
   height: 54px;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -392,7 +392,7 @@
   white-space: nowrap;
 }
 
-.expo-craft .updated-in-china {
+.expo-craft .text-wrapper-13 {
   position: relative;
   align-self: stretch;
   font-family: "Montserrat", Helvetica;
@@ -405,13 +405,144 @@
 }
 
 .expo-craft .header-section-4 {
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 68px 42px;
-  background-color: #cfeaaa;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 42px 80px;
+  background-color: #d0eaab;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.expo-craft .button-2 {
+  width: 210px;
+  height: 54px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 64px;
+  position: relative;
+  background-color: #4d6035;
+  border-radius: 70px;
+}
+
+.expo-craft .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -13px;
+  margin-bottom: -11px;
+  margin-left: -28.5px;
+  margin-right: -28.5px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.expo-craft .header-section-5 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 80px;
+  background-color: #d7f2b1;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.expo-craft .flexcontainer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #e3ffba;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 5px 0px #b4cc95;
+}
+
+.expo-craft .text-wrapper-15 {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.expo-craft .text-wrapper-16 {
+  font-style: italic;
+}
+
+.expo-craft .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.expo-craft .VISIT-EXPO-CN-EXPO-wrapper {
+  width: 291px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 64px;
+  position: relative;
+  background-color: #4d6035;
+  border-radius: 70px;
+}
+
+.expo-craft .VISIT-EXPO-CN-EXPO {
+  position: relative;
+  width: fit-content;
+  margin-top: -19px;
+  margin-bottom: -17px;
+  margin-left: -24px;
+  margin-right: -24px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.expo-craft .text-wrapper-17 {
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.expo-craft .text-wrapper-18 {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.expo-craft .header-section-6 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 68px 42px;
   padding: 42px 24px;
+  background-color: #dcf9b5;
+  display: flex;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -442,33 +573,22 @@
   line-height: 21px;
 }
 
-.expo-craft .text-wrapper-13 {
+.expo-craft .text-wrapper-19 {
   font-weight: 600;
 }
 
-.expo-craft .text-wrapper-14 {
+.expo-craft .text-wrapper-20 {
   font-family: "Montserrat", Helvetica;
   font-size: 15px;
 }
 
-.expo-craft .text-wrapper-15 {
+.expo-craft .text-wrapper-21 {
   font-family: "Montserrat", Helvetica;
   font-weight: 600;
   font-size: 15px;
 }
 
-.expo-craft .title-subtitle {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.expo-craft .text-wrapper-16 {
+.expo-craft .text-wrapper-22 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -480,7 +600,7 @@
   line-height: 27px;
 }
 
-.expo-craft .frame-4 {
+.expo-craft .frame-5 {
   position: relative;
   flex: 1;
   flex-grow: 1;
